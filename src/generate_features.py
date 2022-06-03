@@ -24,7 +24,7 @@ extract = 'ALL'
 # Generate Images Function
 ##########################################################################################
 def generate_image(x, image_chunk_name):
-    fig, ax = plt.subplots(figsize=(3,3))
+    fig, ax = plt.subplots(figsize=(2,2))
 
     x_stft = librosa.stft(x)
     ampl = librosa.amplitude_to_db(abs(x_stft))
@@ -33,7 +33,7 @@ def generate_image(x, image_chunk_name):
     ax.axes.xaxis.set_visible(False)
     ax.axes.yaxis.set_visible(False)
 
-    fig.tight_layout(pad=-1)
+ #   fig.tight_layout(pad=-1)
     fig.savefig(image_chunk_name)
     fig.clear()
     plt.close(fig)

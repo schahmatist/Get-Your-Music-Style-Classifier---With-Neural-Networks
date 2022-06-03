@@ -1,7 +1,9 @@
 *recomm_db/
 *recomm_db/*
+celery*
 nohup.out
 mercury/
 mercury/*
 __pycache__
 images_large811_6.pkl
+*.pkl
