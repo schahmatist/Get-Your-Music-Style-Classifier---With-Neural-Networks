@@ -51,9 +51,8 @@ The goal of this effort is to create a tool that:
 ## 1. DATA UNDERSTANDING and DATASET PREPARATION
 ***
 
-* One of the significant challenges of this project was getting a good training dataset with proper genre labels. The standard option was the GTZAN music dataset (avaiable on kaggle.com), that is the most-used public dataset for evaluation in machine listening research for music genre recognition. But as mentioned in a [paper by Bob L. Sturm
+* One of the significant challenges of this project was getting a good training dataset with proper genre labels. The standard option was the GTZAN music dataset, which is the most-used public dataset for evaluation in machine listening research for music genre recognition. But as mentioned in a [paper by Bob L. Sturm
 ](https://arxiv.org/pdf/1306.1461v2.pdf) it has significant faults: genres are mislabeled, lots of repetetions, only 1000 samples based on less than 300 songs, noisy recordings, etc. After exploring the dataset, I decided to avoid using it and ended up creating my own dataset based on my own music collection as well as some publically available Youtube mixes/lists.  
-
 
 * Almost 2,000 recorded musical pieces of 14 genres were selected
 
