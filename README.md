@@ -43,6 +43,8 @@ The goal of this effort is to create a tool that:
 
 5. ### PROOF OF CONCEPT DEMO RECOMMENDATION SYSTEM
 
+6. ### REPRODUCIBILITY REQUIREMENTS
+
 
 
 ***
@@ -273,3 +275,14 @@ Image("pictures/output_pictures/Genre Analysis with GetYourMusicStyle.PNG")
 5. ### PROOF OF CONCEPT DEMO RECOMMENDATION SYSTEM
 
 * The actual recommendation system is beyond the scope of this repository, but as a proof of concept, 3 songs of a similar genre will be printed 
+
+
+6. ### REPRODUCIBILITY REQUIREMENTS
+
+* Please note that not all Notebooks/python scripts are fully reproducible yet and I have several action items to take care off:
+
+1. In order to let anybody re-generate spectrogramms/features from the audio files dataset I will have to make sure that it's ok to load audio on kaggle (copyright information?) and provide instructions how to download it (datasets are too large to host on github)
+
+2. I will also upload spectrogram images dataset to kaggle and make it available for downloads.
+
+3. It's possible to load models, evaluate them and use them for prediction however detailed requirements.txt is not ready yet (You will need current versions of pysox, librosa, ffmpeg, pydub, keras, sklearn, xgboost)
