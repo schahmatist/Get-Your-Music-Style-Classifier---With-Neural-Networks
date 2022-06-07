@@ -281,8 +281,8 @@ Image("pictures/output_pictures/Genre Analysis with GetYourMusicStyle.PNG")
 
 * Please note that not all Notebooks/python scripts are fully reproducible yet and I have several action items to take care off:
 
-1. In order to let anybody re-generate spectrogramms/features from the audio files dataset I will have to make sure that it's ok to load audio on kaggle (copyright information?) and provide instructions how to download it (datasets are too large to host on github)
+1. In order to let anybody re-generate spectrogramms/features from the audio files dataset I will have to make sure that it's ok to load audio on kaggle (copyright issues?) and provide instructions how to download it (datasets are too large to host on github)
 
 2. I will also upload spectrogram images dataset to kaggle and make it available for downloads.
 
-3. It's possible to load models, evaluate them and use them for prediction however detailed requirements.txt is not ready yet (You will need current versions of pysox, librosa, ffmpeg, pydub, keras, sklearn, xgboost)
+3. It's possible to load models, evaluate them and use them for prediction. Classificaiton tool should be fully operational as well. However detailed requirements.txt is not ready yet (current versions of pysox, librosa, ffmpeg, pydub, keras, sklearn, xgboost, etc are needed, and I will provide exact requirements)
