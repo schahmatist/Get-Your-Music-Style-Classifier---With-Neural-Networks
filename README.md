@@ -15,7 +15,7 @@ Image("pictures/1.jpg")
 
 
 
-Being a musician and a music lover gave me some necessary domain knowledge to create this project:
+Being a musician and a music lover gave me some necessary domain knowledge to create this conceprt prooving project:
 
 * You are at a live performance and would like to find music of  the same genre?
 * Your friend just recorded a cool demo and you want to find similar bands?
