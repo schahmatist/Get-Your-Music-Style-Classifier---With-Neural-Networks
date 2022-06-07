@@ -46,7 +46,7 @@ The goal of this effort is to create a tool that:
 
 
 ***
-## 1. DATA UNDERSTANDING and DASET PREPARATION
+## 1. DATA UNDERSTANDING and DATASET PREPARATION
 ***
 
 * One of the significant challenges of this project was getting a good training dataset with proper genre labels. The standard option was the GTZAN music dataset (avaiable on kaggle.com), that is the most-used public dataset for evaluation in machine listening research for music genre recognition. But as mentioned in a [paper by Bob L. Sturm
