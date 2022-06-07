@@ -26,7 +26,7 @@ and you are interested in discovering something  that sounds alike?
 
 The goal of this effort is to create a tool that:
 * performs music genre classification
-* displays visualization of genre influences and how it is distributed during a music sample duration
+* displays visualization of genre influences and how the probabilities of various genres distributed for the duration of a sample
 * recommends music of the same genre
 ***
 
